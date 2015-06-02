@@ -15,7 +15,12 @@
 # This file is created manually by dark-falcon <chinmay.kunkikar@gmail.com>
 
 PRODUCT_PACKAGES += \
-    qcrilmsgtunnel
+     OmaDmclient \
+     qcrilmsgtunnel \
+     shutdownlistener \
+     SprintHiddenMenu \
+     TimeService \
+     UpdateSetting
 
 PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
