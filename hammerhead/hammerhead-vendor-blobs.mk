@@ -15,7 +15,6 @@
 # This file is created manually by dark-falcon <chinmay.kunkikar@gmail.com>
 
 PRODUCT_COPY_FILES := \
-#system/bin
     vendor/lge/hammerhead/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/hammerhead/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/hammerhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
@@ -36,8 +35,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/hammerhead/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-
-#system/etc
     vendor/lge/hammerhead/proprietary/etc/qcril.db:system/etc/qcril.db \
     vendor/lge/hammerhead/proprietary/etc/sensor_def_hh.conf:system/etc/sensor_def_hh.conf \
     vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -51,11 +48,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/hammerhead/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
-
-#system/framework
     vendor/lge/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-
-#system/lib
     vendor/lge/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
     vendor/lge/hammerhead/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/lge/hammerhead/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
@@ -87,8 +80,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/hammerhead/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/hammerhead/proprietary/lib/libxml.so:system/lib/libxml.so \
-
-#system/vendor
+    vendor/lge/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd \
@@ -210,5 +202,4 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so \
-    vendor/lge/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so

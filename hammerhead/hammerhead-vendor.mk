@@ -14,4 +14,7 @@
 
 # This file is created manually by dark-falcon <chinmay.kunkikar@gmail.com>
 
+PRODUCT_PACKAGES += \
+    qcrilmsgtunnel
+
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
